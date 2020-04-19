@@ -52,7 +52,3 @@ namespace Lab_2
     }
     }
 }
-    
-        }
-    }
-}
