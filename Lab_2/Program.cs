@@ -12,7 +12,7 @@ namespace Lab_2
                 do
                 {
                     //Measurement input prompts
-
+                    
                     double l, w;
                     Console.WriteLine("Enter the length of the snug or penthouse");
                     l = Convert.ToDouble(Console.ReadLine());
@@ -21,12 +21,13 @@ namespace Lab_2
                     w = Convert.ToDouble(Console.ReadLine());
 
                     //Formula for Area and Perimeter
+                    
                     double area = l * w;
                     double peri = 2 * (l + w);
 
                     Console.WriteLine("Area of Rectangle is = {0} and Perimeter is ={1}", area, peri);
 
-
+                    
                     Console.WriteLine("Do you want to Continue? (y/n)");
 
                     response= Console.ReadLine().ToLower();
